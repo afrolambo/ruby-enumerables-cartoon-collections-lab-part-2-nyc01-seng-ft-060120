@@ -24,6 +24,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   if planeteer_calls.each do |word|
     word.any?(valid_calls)
+  end 
     return word 
   end 
   
