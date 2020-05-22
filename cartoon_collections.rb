@@ -24,8 +24,8 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   index = 0 
   while index < planeteer_calls.length do 
-   if valid_calls.include?(index)
-      return index
+   if valid_calls.include?(planeteer_calls[index])
+      return planeteer_calls[index]
     else 
   index += 1 
   end
