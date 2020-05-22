@@ -27,6 +27,7 @@ def find_valid_calls(planeteer_calls)
    if valid_calls.include?(index)
       return index
     end 
+    index += 1 
   end 
   # Use an Enumerable to check if any elements passed in the array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
