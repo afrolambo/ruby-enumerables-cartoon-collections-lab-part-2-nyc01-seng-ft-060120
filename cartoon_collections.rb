@@ -23,4 +23,5 @@ def find_valid_calls(planeteer_calls)
   valid_calls.find { |word| word = planeteer_calls }
   # Use an Enumerable to check if any elements passed in the array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
+  return valid_calls
 end
