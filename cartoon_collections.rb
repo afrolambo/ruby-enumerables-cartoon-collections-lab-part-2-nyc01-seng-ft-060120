@@ -26,6 +26,7 @@ def find_valid_calls(planeteer_calls)
   while index < planeteer_calls.length do 
    if valid_calls.include?(index)
       return index
+    else 
   index += 1 
   end
   end 
